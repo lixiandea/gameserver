@@ -1,0 +1,9 @@
+syntax='proto3';
+package com.lixiande.proto;
+option java_package = "com.lixiande.proto";
+option java_outer_classname = "GameMessage";
+
+message Info{
+  optional int32 port = 1;
+  optional string info = 2;
+}
